@@ -108,7 +108,7 @@ class ApprovalRequestResponse(BaseModel):
     mdo_id: str
     designation_count: int
     status: ApprovalStatus
-    reviewed_at: Optional[datetime] = None
+    rejected_at: Optional[datetime] = None
     revoked_at: Optional[datetime] = None
     created_at: datetime
     reviewer_comments: Optional[str] = None

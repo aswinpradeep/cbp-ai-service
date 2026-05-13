@@ -290,7 +290,7 @@ async def get_approval_request(
             designation_count=approval.designation_count,
             status=approval.status,
             created_at=approval.created_at,
-            reviewed_at=approval.reviewed_at,
+            rejected_at=approval.rejected_at,
             revoked_at=approval.revoked_at,
             reviewer_comments=approval.reviewer_comments,
             items=[
